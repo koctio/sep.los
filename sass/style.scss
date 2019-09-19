@@ -1,3 +1,47 @@
+@import "compass/typography/links";
+@import "compass/css3/selection";
+@import "compass/utilities/sprites";
+
+@import "icons/*.png";
+@include all-icons-sprites;
+//$ico-sprite-dimensions: true;
+//$ico-sprite-base-class: ".icon_calc";
+
+//&[href*='ht8.local']{@extend .ico-45;}
+
+.calc-form-div {
+    padding: 10px 0 10px 100px;
+    margin: 0 0 30px 20px;
+    float: left;
+    max-height: 108px;
+    box-sizing: content-box;
+}
+/*
+.count-people{
+    background: url('../i/count_people.png') top left no-repeat;
+}
+.vanna {
+    background: url('../i/vanna.png') top left no-repeat;
+}
+.stiralka {
+    background: url('../i/stiralka.png') top left no-repeat;
+}
+.dush {
+    background: url('../i/dush.png') top left no-repeat;
+}
+.posuda {
+    background: url('../i/posuda.png') top left no-repeat;
+}
+.unitaz {
+    background: url('../i/unitaz.png') top left no-repeat;
+}
+.bide {
+    background: url('../i/bide.png') top left no-repeat;
+}
+.rakovina {
+    background: url('../i/rakovina.png') top left no-repeat;
+}
+*/
 body{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
@@ -29,36 +73,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.calc-form-div {
-    padding: 10px 0 10px 100px;
-    margin: 0 0 0 20px;
-    float: left;
-    min-height: 108px;
-}
-.count-people{
-    background: url('../i/count_people.png') top left no-repeat;
-}
-.vanna {
-    background: url('../i/vanna.png') top left no-repeat;
-}
-.stiralka {
-    background: url('../i/stiralka.png') top left no-repeat;
-}
-.dush {
-    background: url('../i/dush.png') top left no-repeat;
-}
-.posuda {
-    background: url('../i/posuda.png') top left no-repeat;
-}
-.unitaz {
-    background: url('../i/unitaz.png') top left no-repeat;
-}
-.bide {
-    background: url('../i/bide.png') top left no-repeat;
-}
-.rakovina {
-    background: url('../i/rakovina.png') top left no-repeat;
-}
 .button_calc{
     clear:both;
     margin: 0 0 20px 0;

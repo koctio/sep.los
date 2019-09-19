@@ -1,10 +1,13 @@
 git add .
-git commit -am "PUSH server"
+git commit -am "COMPASS sprite"
 
 git remote add origin https://github.com/koctio/sep.los.git
 git push -u origin master
 --------
 git clone https://github.com/koctio/sep.los.git
+--------
+git config --global user.name 'kostio'
+git config --global user.email 'koctio@gmail.com'
 
 
 echo "# sep.los" >> README.md

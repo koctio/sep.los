@@ -1,3 +1,64 @@
+.icons-sprite, .icons-bide, .icons-count_people, .icons-dush, .icons-posuda, .icons-rakovina, .icons-stiralka, .icons-unitaz, .icons-vanna {
+  background-image: url('../i/icons-sa61dbb118f.png');
+  background-repeat: no-repeat; }
+
+.icons-bide {
+  background-position: 0 0; }
+
+.icons-count_people {
+  background-position: 0 -108px; }
+
+.icons-dush {
+  background-position: 0 -216px; }
+
+.icons-posuda {
+  background-position: 0 -324px; }
+
+.icons-rakovina {
+  background-position: 0 -432px; }
+
+.icons-stiralka {
+  background-position: 0 -540px; }
+
+.icons-unitaz {
+  background-position: 0 -648px; }
+
+.icons-vanna {
+  background-position: 0 -756px; }
+
+.calc-form-div {
+  padding: 10px 0 10px 100px;
+  margin: 0 0 30px 20px;
+  float: left;
+  max-height: 108px;
+  box-sizing: content-box; }
+
+/*
+.count-people{
+    background: url('../i/count_people.png') top left no-repeat;
+}
+.vanna {
+    background: url('../i/vanna.png') top left no-repeat;
+}
+.stiralka {
+    background: url('../i/stiralka.png') top left no-repeat;
+}
+.dush {
+    background: url('../i/dush.png') top left no-repeat;
+}
+.posuda {
+    background: url('../i/posuda.png') top left no-repeat;
+}
+.unitaz {
+    background: url('../i/unitaz.png') top left no-repeat;
+}
+.bide {
+    background: url('../i/bide.png') top left no-repeat;
+}
+.rakovina {
+    background: url('../i/rakovina.png') top left no-repeat;
+}
+*/
 body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
@@ -25,36 +86,6 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
   line-height: 1.5;
   word-break: break-word; }
-
-.calc-form-div {
-  padding: 10px 0 10px 100px;
-  margin: 0 0 0 20px;
-  float: left;
-  min-height: 108px; }
-
-.count-people {
-  background: url("../i/count_people.png") top left no-repeat; }
-
-.vanna {
-  background: url("../i/vanna.png") top left no-repeat; }
-
-.stiralka {
-  background: url("../i/stiralka.png") top left no-repeat; }
-
-.dush {
-  background: url("../i/dush.png") top left no-repeat; }
-
-.posuda {
-  background: url("../i/posuda.png") top left no-repeat; }
-
-.unitaz {
-  background: url("../i/unitaz.png") top left no-repeat; }
-
-.bide {
-  background: url("../i/bide.png") top left no-repeat; }
-
-.rakovina {
-  background: url("../i/rakovina.png") top left no-repeat; }
 
 .button_calc {
   clear: both;
