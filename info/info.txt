@@ -1,0 +1,6 @@
+git add .
+git commit -am "PUSH server"
+
+git remote add origin https://github.com/koctio/sep.los.git
+
+
