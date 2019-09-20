@@ -1,30 +1,46 @@
 .icons-sprite, .icons-bide, .icons-count_people, .icons-dush, .icons-posuda, .icons-rakovina, .icons-stiralka, .icons-unitaz, .icons-vanna {
-  background-image: url('../i/icons-sa61dbb118f.png');
+  background-image: url('../i/icons-s45c79d18c4.png');
   background-repeat: no-repeat; }
 
 .icons-bide {
   background-position: 0 0; }
+  .icons-bide:hover, .icons-bide.bide-hover {
+    background-position: 0 -108px; }
 
 .icons-count_people {
-  background-position: 0 -108px; }
+  background-position: 0 -216px; }
+  .icons-count_people:hover, .icons-count_people.count_people-hover {
+    background-position: 0 -324px; }
 
 .icons-dush {
-  background-position: 0 -216px; }
+  background-position: 0 -432px; }
+  .icons-dush:hover, .icons-dush.dush-hover {
+    background-position: 0 -540px; }
 
 .icons-posuda {
-  background-position: 0 -324px; }
+  background-position: 0 -648px; }
+  .icons-posuda:hover, .icons-posuda.posuda-hover {
+    background-position: 0 -756px; }
 
 .icons-rakovina {
-  background-position: 0 -432px; }
+  background-position: 0 -864px; }
+  .icons-rakovina:hover, .icons-rakovina.rakovina-hover {
+    background-position: 0 -972px; }
 
 .icons-stiralka {
-  background-position: 0 -540px; }
+  background-position: 0 -1080px; }
+  .icons-stiralka:hover, .icons-stiralka.stiralka-hover {
+    background-position: 0 -1188px; }
 
 .icons-unitaz {
-  background-position: 0 -648px; }
+  background-position: 0 -1296px; }
+  .icons-unitaz:hover, .icons-unitaz.unitaz-hover {
+    background-position: 0 -1404px; }
 
 .icons-vanna {
-  background-position: 0 -756px; }
+  background-position: 0 -1512px; }
+  .icons-vanna:hover, .icons-vanna.vanna-hover {
+    background-position: 0 -1620px; }
 
 .calc-form-div {
   padding: 10px 0 10px 100px;
