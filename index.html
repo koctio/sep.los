@@ -16,27 +16,27 @@ and open the template in the editor.
         <h3 class="widget-title">Калькулятор септиков</h3>
         <form id="calc-from" action='#' method='get'>
             <div class='calc-form-div icons-count_people'><div style="pole-name">Сколько жильцов в доме</div>
-                <input type='text' class='calc-form-imput' value='' placeholder='Кол-во человек' required name='count-people' id='count-people' pattern="2-[0-9]{3}-[0-9]{3}">
+                <input type='text' class='calc-form-imput' value='' placeholder='Кол-во человек' required name='count-people' id='count-people'>
             </div>
-            <div class='calc-form-div icons-vanna' data='200'><div style="pole-name">Ванна 200 литров</div>
+            <div class='calc-form-div icons-vanna' data='200' price='1000'><div style="pole-name">Ванна 200 литров</div>
                 <input type='text' class='calc-form-imput' value='' placeholder='Кол-во ванн' required name='vanna' id='vanna'>
             </div>
-            <div class='calc-form-div icons-stiralka' data='50'><div style="pole-name">Стиралка 50 литров</div>
+            <div class='calc-form-div icons-stiralka' data='50' price='15000'><div style="pole-name">Стиралка 50 литров</div>
                 <input type='text' class='calc-form-imput' value='' placeholder='Кол-во стиралок' required name='stiralka' id='stiralka'>
             </div>
-            <div class='calc-form-div icons-dush' data='60'><div style="pole-name">Душевая 60 литров</div>
+            <div class='calc-form-div icons-dush' data='60' price='2000'><div style="pole-name">Душевая 60 литров</div>
                 <input type='text' class='calc-form-imput' value='' placeholder='Кол-во душевых' required name='dush' id='dush'>
             </div>
-            <div class='calc-form-div icons-posuda' data='20'><div style="pole-name">Посудомойка 20 литров</div>
+            <div class='calc-form-div icons-posuda' data='20' price='18000'><div style="pole-name">Посудомойка 20 литров</div>
                 <input type='text' class='calc-form-imput' value='' placeholder='Кол-во посудомоек' required name='posuda' id='posuda'>
             </div>
-            <div class='calc-form-div icons-unitaz' data='10'><div style="pole-name">Туалет 10 литров</div>
+            <div class='calc-form-div icons-unitaz' data='10' price='3000'><div style="pole-name">Туалет 10 литров</div>
                 <input type='text' class='calc-form-imput' value='' placeholder='Кол-во туалетов' required name='unitaz' id='unitaz'>
             </div>
-            <div class='calc-form-div icons-bide' data='5'><div style="pole-name">Биде 5 литров</div>
+            <div class='calc-form-div icons-bide' data='5' price='1500'><div style="pole-name">Биде 5 литров</div>
                 <input type='text' class='calc-form-imput' value='' placeholder='Кол-во биде' required name='bide' id='bide'>
             </div>
-            <div class='calc-form-div icons-rakovina' data='10'><div style="pole-name">Раковина 10 литров</div>
+            <div class='calc-form-div icons-rakovina' data='10' price='5000'><div style="pole-name">Раковина 10 литров</div>
                 <input type='text' class='calc-form-imput' value='' placeholder='Кол-во раковин' required name='rakovina' id='rakovina'>
             </div>
             <div class='button_calc'>
@@ -45,8 +45,6 @@ and open the template in the editor.
         </form>
         </div>
         <output id='pay'><span>0.00 </span> <span>₽</span></output>
-        <script>
-            
-        </script>
+        <script src="js/script.js" type="text/javascript"></script>
     </body>
 </html>
